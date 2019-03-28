@@ -314,7 +314,7 @@ def train_opts(parser):
             help="Port of master for torch.distributed training.")
 
   group.add('--seed', '-seed', type=int, default=-1,
-            help="""Random seed used for the experiments
+            help="""Random seed used for the pipelines
                        reproducibility.""")
 
   # Init options
